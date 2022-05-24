@@ -58,12 +58,13 @@ public class CCuenta {
         this.tipoInterés = tipoInterés;
     }
 
-
+//Declaración de atributos de clase
     private String nombre;
     private String cuenta;
     private double saldo;
     private double tipoInterés;
 
+ //Constructores
     public CCuenta()
     {
     }
@@ -75,7 +76,8 @@ public class CCuenta {
         saldo=sal;
     }
 
-    public double estado()
+    //Metodos 
+         public double estado()
     {
         return getSaldo();
     }
