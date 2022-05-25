@@ -110,7 +110,7 @@ public class CCuenta {
     }
 /**
  * @param cantidad
- * @throws Exception - - excepción genéricas
+ * @throws Exception - excepción genéricas
  */
     public void retirar(double cantidad) throws Exception
     {
